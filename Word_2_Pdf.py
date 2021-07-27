@@ -29,14 +29,14 @@ class Root(Tk):
     #define Function for Button1.
     def button(self):
         self.button = ttk.Button(self.lableFrame, text = "Browse a File", command = self.fileDialog)
-        self.img = PhotoImage(file="C:/Users/TYAGI/PycharmProjects/Doc2Pdf/btn1.jpg")  # make sure to add "/" not "\"
+        self.img = PhotoImage(file="btn1.jpg")  # make sure to add "/" not "\"
         self.button.config(image=self.img)
         self.button.grid(column =1, row = 1)
 
     # define Function for Button2.
     def button1(self):
         self.button1 = ttk.Button(self.lableFrame, text = "Convert File", command = self.convert)
-        self.img1 = PhotoImage(file="C:/Users/TYAGI/PycharmProjects/Doc2Pdf/btn2.jpg")  # make sure to add "/" not "\"
+        self.img1 = PhotoImage(file="btn2.jpg")  # make sure to add "/" not "\"
         self.button1.config(image=self.img1)
         self.button1.grid(column =1, row = 2, padx= 20, pady= 50)
 
