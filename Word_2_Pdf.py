@@ -21,7 +21,7 @@ class Root(Tk):
         self.lableFrame = ttk.LabelFrame(self, text = "                           Open your Word File",relief= "groove")
         self.lableFrame.grid(column = 1, row = 1, padx =20,pady = 20,sticky=N + S + E + W)
         self.lable = ttk.Label(self, text="Develop by Addy",relief= "groove")
-        self.lable.place(x=70, y=306)
+        self.lable.place(x=100, y=306)
         self.button()
         self.make_dir()
         self.button1()
